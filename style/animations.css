@@ -1,0 +1,12 @@
+@keyframes mainMenu{
+    0% {top: 50%;}
+    100% {top: 5%;}
+}
+@keyframes content-fade-in{
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+@keyframes content-fade-out{
+    0% {opacity: 100%;}
+    100% {opacity: 0%;}
+}

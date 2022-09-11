@@ -1,0 +1,108 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to bottom, #4C5874, #6A748B);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+
+}
+button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    padding: 10px 15px;
+    border: 0;
+    background-color: transparent;
+    border-radius: 0 40px 0 20px;
+    color: beige;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fd7a0e;
+}
+button:focus{
+    background-color: #704420;
+
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 15%;
+    right: 15%;
+    gap: 20px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 100px;
+}
+
+.content-container{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-image: linear-gradient(to bottom, #6A748B, #4C5874);
+    border-radius: 20px 200px;
+}
+.content-title{
+    opacity: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 100px;
+    padding: 25px 50px;
+    color: #c0cce7;
+    border-right: 1px solid beige;
+    width: 300px;
+}
+.content-title p{
+    margin: 10px;
+    font-size: 0.8em;
+}
+.content-title h1{
+    margin: 2px;
+}
+.content-title img{
+    border-radius: 200px;
+    width: 60px;
+}
+
+.content-column{
+    opacity: 0%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 500px;
+    padding: 30px;
+    color: #c0cce7;
+    font-size: 0.9em;
+}
+
+.content-column iframe{
+    border-radius: 50px 50px 0 0;
+
+}
+.content-column p{
+    font-weight: 400;
+    padding: 20px 20px;
+    background-color: #dce2d38f;
+    border-radius: 0 0 30px 30px;
+    color: rgb(51, 51, 51);
+}
+
+#programador{
+    display: none;
+}
+
